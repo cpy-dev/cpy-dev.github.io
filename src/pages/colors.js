@@ -1,0 +1,1 @@
+const dark = '#1f1a1a';
