@@ -1,11 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import Logo from "./Logo";
 
+function getWindowSize() {
+    const {innerWidth, innerHeight} = window;
+    return {innerWidth, innerHeight};
+}
+
 function NavBar () {
+    const [windowSize, _] = useState(getWindowSize());
+
     const divStyle = {
         'display' : 'flex',
         'flex-direction' : 'row',
-        'justify-content' : 'space-evenly',
+        'justify-content' : windowSize.innerHeight>windowSize.innerWidth?'space-between':'space-evenly',
         'align-items' : 'center',
         'position' : 'sticky',
         'top' : '0',
@@ -18,9 +25,10 @@ function NavBar () {
         'text-decoration' : 'none',
         'font-size' : '20px',
         'color' : 'white',
-        'width' : '10%',
+        'width' : windowSize.innerHeight>windowSize.innerWidth?'auto':'10%',
         'text-align' : 'center',
-        'align-self' : 'center'
+        'align-self' : 'center',
+        'margin' : windowSize.innerHeight>windowSize.innerWidth?'10px':'0'
     }
 
     const logoDiv = {
