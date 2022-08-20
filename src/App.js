@@ -25,12 +25,16 @@ const recentActivitiesStyle = {
     'align-items' : 'center'
 }
 
+const logoDivStyle = {
+    'margin-left' : '-20px'
+}
+
 function App() {
   return (
       <div className="mainDiv">
           <NavBar />
           <div className="centralDiv" style={centralDivStyle}>
-              <div>
+              <div style={logoDivStyle}>
                   <Logo fontSize="200" color="white" />
               </div>
 
