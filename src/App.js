@@ -3,7 +3,7 @@ import React from "react";
 
 import NavBar from "./sharedCode/NavBar";
 import Logo from "./sharedCode/Logo";
-import python from "./sharedCode/python.svg";
+import python from "./sharedCode/svgs/python.svg";
 import Project from './sharedCode/Project'
 
 const centralDivStyle = {
