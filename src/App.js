@@ -1,10 +1,10 @@
 import './App.css';
 import React from "react";
 
-import NavBar from "./pages/NavBar";
-import Logo from "./pages/Logo";
-import python from "./svgs/python.svg";
-import Project from './pages/Project'
+import NavBar from "../../sharedCode/NavBar";
+import Logo from "../../sharedCode/Logo";
+import python from "../../sharedCode/python.svg";
+import Project from '../../sharedCode/Project'
 
 const centralDivStyle = {
     'display' : 'flex',
