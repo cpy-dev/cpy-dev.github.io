@@ -72,7 +72,6 @@ function NavBar () {
                 <a href="/skills" style={aBrowserStyle}>Skills</a>
                 <a href="/projects" style={aBrowserStyle}>Projects</a>
                 <a href="/about-me" style={aBrowserStyle}>About Me</a>
-                <a href="/contacts" style={aBrowserStyle}>Contacts</a>
             </div>
         )
     } else if (isMobile) {
