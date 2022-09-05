@@ -29,6 +29,27 @@ const logoDivStyle = {
     'margin-left' : '-20px'
 }
 
+const contactsDiv = {
+
+}
+
+const contactP = {
+    'color' : 'whitesmoke',
+    'text-align' : 'center',
+    'margin' : '5px',
+    'font-size' : '15px'
+}
+
+const contactA = {
+    'color' : 'whitesmoke'
+}
+
+const contactsTopDiv = {
+    'display' : 'flex',
+    'flex-direction' : 'row',
+    'justify-content' : 'center'
+}
+
 function App() {
   return (
       <div className="mainDiv">
@@ -51,12 +72,35 @@ function App() {
               <Project
                   name="rShell"
                   langs={[python]}
-                  description="Remotely access other computer's terminal via TCP connection"
+                  description="Remotely access other computer's terminal via local network connection"
                   link="https://github.com/cpy-dev/rShell"
               />
           </div>
+
       </div>
   );
 }
 
 export default App;
+
+/*
+ *  <hr width={'90%'} color={'#001000'} />
+          <div style={contactsDiv}>
+              <p style={contactP}>
+                  Contacts:
+              </p>
+
+              <div style={contactsTopDiv}>
+                  <p style={contactP}>
+                      GitHub: <a style={contactA} href={'https://github.com/cpy-dev'}>cpy-dev</a>
+                  </p>
+                  <p style={contactP}>
+                      Instagram: <a style={contactA} href={'https://www.instagram.com/dcc.cpy'}>@dcc.cpy</a>
+                  </p>
+              </div>
+
+              <p style={contactP}>
+                  Email: systemcpy@gmail.com
+              </p>
+          </div>
+ */
