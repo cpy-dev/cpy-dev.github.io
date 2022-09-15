@@ -5,6 +5,9 @@ import NavBar from "./sharedCode/NavBar";
 import Logo from "./sharedCode/Logo";
 import python from "./sharedCode/svgs/python.svg";
 import Project from './sharedCode/Project'
+import flutter from './sharedCode/svgs/flutter.svg'
+import dart from './sharedCode/svgs/dart.svg'
+import android from './sharedCode/svgs/android.svg'
 
 const centralDivStyle = {
     'display' : 'flex',
@@ -63,6 +66,11 @@ function App() {
           </div>
           <div style={recentActivitiesStyle}>
               <p style={pStyle}>My recent activities:</p>
+              <Project
+                  name={"NetPaste"}
+                  langs={[python, dart, flutter, android]}
+                  description="Copy and paste system between smartphone and computer. Beta testing phase, not available yet"
+              />
               <Project
                   name="SQLite-shell"
                   langs={[python]}
