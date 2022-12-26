@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcc10540.css",
-    "main.js": "/static/js/main.3e1fd1cb.js",
+    "main.css": "/static/css/main.e61a1f9f.css",
+    "main.js": "/static/js/main.04631a42.js",
     "static/js/787.19bc8ff1.chunk.js": "/static/js/787.19bc8ff1.chunk.js",
     "static/media/python.svg": "/static/media/python.57013f1647cf9334e28917608df1906b.svg",
-    "static/media/android.svg": "/static/media/android.0436a8139afaf9f9cce4876415a2722d.svg",
+    "static/media/css.svg": "/static/media/css.e10a01b50d4944d5c478c5c66197baa7.svg",
+    "static/media/c.svg": "/static/media/c.86b0b65aca2c9a5b911f6cb47f43364c.svg",
+    "static/media/c++.svg": "/static/media/c++.d92985159a55b83d590761ad8490d2d1.svg",
+    "static/media/java.svg": "/static/media/java.8f3142c0ac1a020d495108392c8ebe87.svg",
+    "static/media/bash.svg": "/static/media/bash.de859f35ccb1e171fbe9f80e32bd0265.svg",
+    "static/media/android.svg": "/static/media/android.bb075c7faf96f162088367dfc8055850.svg",
     "static/media/dart.svg": "/static/media/dart.9ff1e67139b2695c779dcb69cda6c3d5.svg",
     "static/media/flutter.svg": "/static/media/flutter.1b8f9149e623a24ce67a84d9b25b5d92.svg",
     "index.html": "/index.html",
-    "main.fcc10540.css.map": "/static/css/main.fcc10540.css.map",
-    "main.3e1fd1cb.js.map": "/static/js/main.3e1fd1cb.js.map",
+    "static/media/html.svg": "/static/media/html.1cddde102506d31abc2aabfa8c3fcdc9.svg",
+    "static/media/react.svg": "/static/media/react.2ea890f593e5869eb42bc4f08e0084a1.svg",
+    "main.e61a1f9f.css.map": "/static/css/main.e61a1f9f.css.map",
+    "main.04631a42.js.map": "/static/js/main.04631a42.js.map",
     "787.19bc8ff1.chunk.js.map": "/static/js/787.19bc8ff1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcc10540.css",
-    "static/js/main.3e1fd1cb.js"
+    "static/css/main.e61a1f9f.css",
+    "static/js/main.04631a42.js"
   ]
 }
